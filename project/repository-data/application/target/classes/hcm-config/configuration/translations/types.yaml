@@ -62,3 +62,49 @@ definitions:
         project:title: Titel
     /hippo:configuration/hippo:translations/hippo:types/project:imageset:
       jcr:primaryType: hipposys:resourcebundles
+    /hippo:configuration/hippo:translations/hippo:types/project:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News Item
+        project:author: Author
+        project:content: Content
+        project:date: Date
+        project:image: Image
+        project:introduction: Introduction
+        project:location: Location
+        project:source: Source
+        project:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Nieuwsbericht
+        project:author: Auteur
+        project:content: Inhoud
+        project:date: Datum
+        project:image: Afbeelding
+        project:introduction: Introductie
+        project:location: Locatie
+        project:source: Bron
+        project:title: Titel
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: News
+        project:author: Verfasser
+        project:content: Inhalt
+        project:date: Datum
+        project:image: Abbildung
+        project:introduction: Einführung
+        project:location: Standort
+        project:source: Quelle
+        project:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Message d'info
+        project:author: Auteur
+        project:content: Contenu
+        project:date: Date
+        project:image: Image
+        project:introduction: Introduction
+        project:location: Lieu
+        project:source: Source
+        project:title: Titre

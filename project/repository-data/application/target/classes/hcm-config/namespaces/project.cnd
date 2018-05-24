@@ -22,3 +22,6 @@
 
 [project:imageset] > hippogallery:imageset, hippogallery:relaxed
 
+[project:newsdocument] > hippostd:relaxed, hippotranslation:translated, project:basedocument
+  orderable
+

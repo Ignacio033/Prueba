@@ -1,10 +1,11 @@
-org\example\rest\BannerResource.class
+org\example\beans\NewsDocument.class
 org\example\components\EventsComponent.class
-org\example\rest\PlaceResource.class
 org\example\beans\Banner.class
+org\example\rest\EventResource.class
+org\example\beans\BaseDocument.class
+org\example\rest\BannerResource.class
+org\example\rest\PlaceResource.class
 org\example\beans\Event.class
 org\example\beans\Imageset.class
 org\example\beans\Place.class
 org\example\beans\ContentDocument.class
-org\example\rest\EventResource.class
-org\example\beans\BaseDocument.class

@@ -1,4 +1,4 @@
 /hst:hst/hst:configurations/project/hst:workspace/hst:sitemenus/main/Events:
   jcr:primaryType: hst:sitemenuitem
-  hst:referencesitemapitem: events
+  hst:referencesitemapitem: event
   hst:repobased: false

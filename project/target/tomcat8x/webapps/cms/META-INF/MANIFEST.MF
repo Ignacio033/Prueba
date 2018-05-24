@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Implementation-Title: Project CMS
 Implementation-Version: 0.1.0-SNAPSHOT
 Built-By: vassit
-Project-Build: 2018-05-24T10:52:02Z
+Project-Build: 2018-05-24T15:50:13Z
 Implementation-Vendor-Id: org.example
 Project-Version: 0.1.0-SNAPSHOT
 Hippo-Release-Version: 12.2.0
