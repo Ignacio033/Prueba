@@ -1,0 +1,44 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:templates/de:
+      new-resource-bundle: Neues Resource-Bundle
+      new-untranslated-folder: Neuer nicht übersetzter Ordner
+      new-banner-folder: Neuer Banner-Ordner
+      new-banner-document: Neues Banner
+      new-content-folder: Neuer Content-Ordner
+      new-content-document: Neues Content-Document
+      new-project-imageset-image: Neues Bild
+      new-project-imageset-folder: Neuer Ordner
+    /hippo:configuration/hippo:translations/hippo:templates/en:
+      new-resource-bundle: new resource bundle
+      new-untranslated-folder: new untranslated folder
+      new-banner-folder: new banner folder
+      new-banner-document: new banner document
+      new-content-folder: new content folder
+      new-content-document: new content document
+      new-project-imageset-image: New Image
+      new-project-imageset-folder: new folder
+    /hippo:configuration/hippo:translations/hippo:templates/fr:
+      new-resource-bundle: nouveau resource bundle
+      new-untranslated-folder: nouveau dossier non traduit
+      new-banner-folder: nouveau dossier bannière
+      new-banner-document: nouvelle bannière
+      new-content-folder: nouveau dossier contenu
+      new-content-document: nouveau document contenu
+      new-project-imageset-image: Nouvelle image
+      new-project-imageset-folder: un nouveau dossier
+    /hippo:configuration/hippo:translations/hippo:templates/nl:
+      new-resource-bundle: nieuwe resource bundle
+      new-untranslated-folder: nieuwe onvertaalde map
+      new-banner-folder: nieuwe banner map
+      new-banner-document: nieuwe banner
+      new-content-folder: nieuwe contentmap
+      new-content-document: nieuw content document
+      new-project-imageset-image: Nieuwe Afbeelding
+      new-project-imageset-folder: nieuwe map
+    /hippo:configuration/hippo:translations/hippo:templates/es:
+      new-project-imageset-image: Nueva imagen
+      new-project-imageset-folder: nueva carpeta
+    /hippo:configuration/hippo:translations/hippo:templates/zh:
+      new-project-imageset-image: 新图片
+      new-project-imageset-folder: 新文件夹

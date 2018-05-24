@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/project/hst:workspace/hst:sitemap/event:
+  jcr:primaryType: hst:sitemapitem
+  hst:componentconfigurationid: hst:pages/event-contentpage
+  hst:lastmodified: 2018-05-24T12:00:05.039+01:00
+  hst:pagetitle: Events

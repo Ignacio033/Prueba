@@ -1,0 +1,382 @@
+/content/documents/project/banners:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 7bcd4e31-299e-4299-93e5-feea24fb3b5a
+  hippostd:foldertype: [new-banner-document, new-banner-folder]
+  hippotranslation:id: 6a6dcfee-3738-4af7-bc91-b22c7b9fc46a
+  hippotranslation:locale: en
+  /banner1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 895fb1b6-410d-4972-9894-6b6a06d2b361
+    /banner1:
+      jcr:primaryType: project:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ea77071e-b65e-4878-bbe6-d8f2bd4c0606
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: 76727600-1531-4817-983b-3624b6890fde
+      hippotranslation:locale: en
+      project:title: Sample banner
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /project:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 9a3f1f5c-5302-43c4-9bec-584e810ffa2f
+    hippo:name: banner2
+    /banner2:
+      jcr:primaryType: project:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f4e485da-8798-4058-94b4-992f0538cbdb
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: 759eb9bb-f2f3-46f2-82b6-73b56b2cb6db
+      hippotranslation:locale: en
+      project:title: Sample banner 2
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /project:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /b1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 4af560d3-d001-4fec-b186-a8c0de5232f5
+    /b1[1]:
+      jcr:primaryType: project:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9d403a9a-03d2-48bb-a1ec-17ee7377bf12
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T11:13:41.750+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T11:20:13.014+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 5da8becd-38bf-443a-bfeb-af4bb57aa317
+      hippotranslation:locale: en
+      project:title: B1
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum</p>
+      /project:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 8ee4662d-4cf3-44dc-bdbd-a61848c70d34
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /b1[2]:
+      jcr:primaryType: project:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 6277c64a-b29d-4854-a047-fdb1f4424371
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T11:13:41.750+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T11:20:18.631+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 5da8becd-38bf-443a-bfeb-af4bb57aa317
+      hippotranslation:locale: en
+      project:title: B1
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum</p>
+      /project:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 8ee4662d-4cf3-44dc-bdbd-a61848c70d34
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /b1[3]:
+      jcr:primaryType: project:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c8503415-bd86-431b-a412-b24999bd5f5c
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T11:13:41.750+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T11:20:18.631+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-05-23T11:20:20.249+01:00
+      hippotranslation:id: 5da8becd-38bf-443a-bfeb-af4bb57aa317
+      hippotranslation:locale: en
+      project:title: B1
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum</p>
+      /project:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 8ee4662d-4cf3-44dc-bdbd-a61848c70d34
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /b2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 3bf758dd-a698-43ce-85a3-1a4c3756a51a
+    /b2[1]:
+      jcr:primaryType: project:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 522beb7a-c9c3-4ecb-96c7-f2769b9fdbc1
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T11:14:42.861+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T11:14:42.861+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 890c9ce7-e519-4ef8-bb49-146ecb7b6202
+      hippotranslation:locale: en
+      project:title: B2
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+          illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+          sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+          adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.</p>
+      /project:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6779a9fb-1207-4528-b3f7-d91f78620df3
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /b2[2]:
+      jcr:primaryType: project:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: efff080b-a618-43c6-933f-db7a74320aa9
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T11:14:42.861+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T11:15:05.556+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 890c9ce7-e519-4ef8-bb49-146ecb7b6202
+      hippotranslation:locale: en
+      project:title: B2
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+          illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+          sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+          adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.</p>
+      /project:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6779a9fb-1207-4528-b3f7-d91f78620df3
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /b2[3]:
+      jcr:primaryType: project:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: fef8a5ba-5562-4e99-8731-c2baf7ffbec6
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T11:14:42.861+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T11:15:05.556+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-05-23T11:15:06.952+01:00
+      hippotranslation:id: 890c9ce7-e519-4ef8-bb49-146ecb7b6202
+      hippotranslation:locale: en
+      project:title: B2
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+          illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+          sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+          Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+          adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore
+          et dolore magnam aliquam quaerat voluptatem.</p>
+      /project:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 6779a9fb-1207-4528-b3f7-d91f78620df3
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /b3:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 58a4680d-022a-4a52-a94d-ee11db83539c
+    /b3[1]:
+      jcr:primaryType: project:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2612a918-b3c4-4a34-8877-f51770812606
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T11:15:14.747+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T11:15:14.747+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 04020e14-9fa1-4362-bca7-db6431eacacf
+      hippotranslation:locale: en
+      project:title: B3
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>"But I must explain to you how all this mistaken idea
+          of denouncing pleasure and praising pain was born and I will give you a
+          complete account of the system, and expound the actual teachings of the
+          great explorer of the truth, the master-builder of human happiness. No one
+          rejects, dislikes, or avoids pleasure itself, because it is pleasure, but
+          because those who do not know how to pursue pleasure rationally encounter
+          consequences that are extremely painful</p>
+      /project:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 40a8e1a4-d91c-459b-a7eb-94342d8462b4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /b3[2]:
+      jcr:primaryType: project:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 2bb05317-bca1-49f8-92cc-e1afb50520d5
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T11:15:14.747+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T11:15:43.223+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 04020e14-9fa1-4362-bca7-db6431eacacf
+      hippotranslation:locale: en
+      project:title: B3
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>"But I must explain to you how all this mistaken idea
+          of denouncing pleasure and praising pain was born and I will give you a
+          complete account of the system, and expound the actual teachings of the
+          great explorer of the truth, the master-builder of human happiness. No one
+          rejects, dislikes, or avoids pleasure itself, because it is pleasure, but
+          because those who do not know how to pursue pleasure rationally encounter
+          consequences that are extremely painful</p>
+      /project:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 40a8e1a4-d91c-459b-a7eb-94342d8462b4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /b3[3]:
+      jcr:primaryType: project:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 1c638923-3acb-49d8-b51e-0582ee5bb009
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T11:15:14.747+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T11:15:43.223+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-05-23T11:15:44.815+01:00
+      hippotranslation:id: 04020e14-9fa1-4362-bca7-db6431eacacf
+      hippotranslation:locale: en
+      project:title: B3
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>"But I must explain to you how all this mistaken idea
+          of denouncing pleasure and praising pain was born and I will give you a
+          complete account of the system, and expound the actual teachings of the
+          great explorer of the truth, the master-builder of human happiness. No one
+          rejects, dislikes, or avoids pleasure itself, because it is pleasure, but
+          because those who do not know how to pursue pleasure rationally encounter
+          consequences that are extremely painful</p>
+      /project:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 40a8e1a4-d91c-459b-a7eb-94342d8462b4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe

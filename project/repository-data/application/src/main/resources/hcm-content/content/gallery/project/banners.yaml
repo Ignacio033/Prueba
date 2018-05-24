@@ -1,0 +1,411 @@
+/content/gallery/project/banners:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: 889e1e98-6bc5-4320-8d0b-31c8fedd9c5c
+  hippostd:foldertype: [new-project-imageset-folder]
+  hippostd:gallerytype: ['project:imageset']
+  /banner-1.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+    /banner-1.jpg:
+      jcr:primaryType: project:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: banner-1.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: banner-1.jpg
+        hippogallery:height: 12
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/banner-1.jpg/banner-1.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.174+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1170
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/banner-1.jpg/banner-1.jpg/original/original.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.174+02:00
+        jcr:mimeType: image/jpeg
+      /project:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 104
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/banner-1.jpg/banner-1.jpg/small/small.jpg
+        jcr:lastModified: 2018-05-23T11:03:32.658+01:00
+        jcr:mimeType: image/jpeg
+      /project:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/banner-1.jpg/banner-1.jpg/large/large.jpg
+        jcr:lastModified: 2018-05-23T11:03:32.759+01:00
+        jcr:mimeType: image/jpeg
+      /project:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 49
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/banner-1.jpg/banner-1.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2018-05-23T11:03:32.859+01:00
+        jcr:mimeType: image/jpeg
+      /project:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 66
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/banner-1.jpg/banner-1.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2018-05-23T11:03:32.949+01:00
+        jcr:mimeType: image/jpeg
+      /project:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/banner-1.jpg/banner-1.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2018-05-23T11:03:33.034+01:00
+        jcr:mimeType: image/jpeg
+      /project:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 228
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/banner-1.jpg/banner-1.jpg/banner/banner.jpg
+        jcr:lastModified: 2018-05-23T11:03:33.129+01:00
+        jcr:mimeType: image/jpeg
+  /banner-2.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: dc6c2247-d3f4-4be0-976e-749b69927eee
+    /banner-2.jpg:
+      jcr:primaryType: project:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: banner-2.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: banner-2.jpg
+        hippogallery:height: 12
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/banner-2.jpg/banner-2.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.558+02:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1170
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/banner-2.jpg/banner-2.jpg/original/original.jpg
+        jcr:lastModified: 2016-07-25T09:42:50.558+02:00
+        jcr:mimeType: image/jpeg
+      /project:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 104
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/banner-2.jpg/banner-2.jpg/small/small.jpg
+        jcr:lastModified: 2018-05-23T11:03:32.301+01:00
+        jcr:mimeType: image/jpeg
+      /project:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/banner-2.jpg/banner-2.jpg/large/large.jpg
+        jcr:lastModified: 2018-05-23T11:03:32.349+01:00
+        jcr:mimeType: image/jpeg
+      /project:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 49
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/banner-2.jpg/banner-2.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2018-05-23T11:03:32.402+01:00
+        jcr:mimeType: image/jpeg
+      /project:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 66
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/banner-2.jpg/banner-2.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2018-05-23T11:03:32.449+01:00
+        jcr:mimeType: image/jpeg
+      /project:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/banner-2.jpg/banner-2.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2018-05-23T11:03:32.493+01:00
+        jcr:mimeType: image/jpeg
+      /project:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 228
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/banner-2.jpg/banner-2.jpg/banner/banner.jpg
+        jcr:lastModified: 2018-05-23T11:03:32.575+01:00
+        jcr:mimeType: image/jpeg
+  /e2.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 6779a9fb-1207-4528-b3f7-d91f78620df3
+    /e2.jpg:
+      jcr:primaryType: project:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: e2.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: e2.jpg
+        hippogallery:height: 12
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/e2.jpg/e2.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2018-05-23T11:12:11.129+01:00
+        jcr:mimeType: image/jpeg
+      /project:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 104
+        hippogallery:width: 486
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/e2.jpg/e2.jpg/small/small.jpg
+        jcr:lastModified: 2018-05-23T11:12:11.129+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 104
+        hippogallery:width: 486
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/e2.jpg/e2.jpg/original/original.jpg
+        jcr:lastModified: 2018-05-23T11:12:11.129+01:00
+        jcr:mimeType: image/jpeg
+      /project:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 104
+        hippogallery:width: 486
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/e2.jpg/e2.jpg/large/large.jpg
+        jcr:lastModified: 2018-05-23T11:12:11.129+01:00
+        jcr:mimeType: image/jpeg
+      /project:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 104
+        hippogallery:width: 486
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/e2.jpg/e2.jpg/banner/banner.jpg
+        jcr:lastModified: 2018-05-23T11:12:11.129+01:00
+        jcr:mimeType: image/jpeg
+      /project:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 104
+        hippogallery:width: 486
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/e2.jpg/e2.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2018-05-23T11:12:11.129+01:00
+        jcr:mimeType: image/jpeg
+      /project:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 66
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/e2.jpg/e2.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2018-05-23T11:12:11.129+01:00
+        jcr:mimeType: image/jpeg
+      /project:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 49
+        hippogallery:width: 233
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/e2.jpg/e2.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2018-05-23T11:12:11.129+01:00
+        jcr:mimeType: image/jpeg
+  /e3.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 40a8e1a4-d91c-459b-a7eb-94342d8462b4
+    /e3.jpg:
+      jcr:primaryType: project:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: e3.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: e3.jpg
+        hippogallery:height: 12
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/e3.jpg/e3.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2018-05-23T11:12:11.797+01:00
+        jcr:mimeType: image/jpeg
+      /project:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 104
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/e3.jpg/e3.jpg/small/small.jpg
+        jcr:lastModified: 2018-05-23T11:12:11.797+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1170
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/e3.jpg/e3.jpg/original/original.jpg
+        jcr:lastModified: 2018-05-23T11:12:11.797+01:00
+        jcr:mimeType: image/jpeg
+      /project:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/e3.jpg/e3.jpg/large/large.jpg
+        jcr:lastModified: 2018-05-23T11:12:11.797+01:00
+        jcr:mimeType: image/jpeg
+      /project:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 228
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/e3.jpg/e3.jpg/banner/banner.jpg
+        jcr:lastModified: 2018-05-23T11:12:11.797+01:00
+        jcr:mimeType: image/jpeg
+      /project:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/e3.jpg/e3.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2018-05-23T11:12:11.797+01:00
+        jcr:mimeType: image/jpeg
+      /project:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 66
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/e3.jpg/e3.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2018-05-23T11:12:11.797+01:00
+        jcr:mimeType: image/jpeg
+      /project:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 49
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/e3.jpg/e3.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2018-05-23T11:12:11.797+01:00
+        jcr:mimeType: image/jpeg
+  /b1.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 8ee4662d-4cf3-44dc-bdbd-a61848c70d34
+    /b1.jpg:
+      jcr:primaryType: project:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: b1.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: b1.jpg
+        hippogallery:height: 12
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/b1.jpg/b1.jpg/thumbnail/thumbnail.jpg
+        jcr:lastModified: 2018-05-23T11:19:48.968+01:00
+        jcr:mimeType: image/jpeg
+      /project:small:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 104
+        hippogallery:width: 491
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/b1.jpg/b1.jpg/small/small.jpg
+        jcr:lastModified: 2018-05-23T11:19:48.968+01:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 250
+        hippogallery:width: 1170
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/b1.jpg/b1.jpg/original/original.jpg
+        jcr:lastModified: 2018-05-23T11:19:48.968+01:00
+        jcr:mimeType: image/jpeg
+      /project:large:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/b1.jpg/b1.jpg/large/large.jpg
+        jcr:lastModified: 2018-05-23T11:19:48.968+01:00
+        jcr:mimeType: image/jpeg
+      /project:banner:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 228
+        hippogallery:width: 1070
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/b1.jpg/b1.jpg/banner/banner.jpg
+        jcr:lastModified: 2018-05-23T11:19:48.968+01:00
+        jcr:mimeType: image/jpeg
+      /project:largesquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 141
+        hippogallery:width: 663
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/b1.jpg/b1.jpg/largesquare/largesquare.jpg
+        jcr:lastModified: 2018-05-23T11:19:48.968+01:00
+        jcr:mimeType: image/jpeg
+      /project:mediumsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 66
+        hippogallery:width: 313
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/b1.jpg/b1.jpg/mediumsquare/mediumsquare.jpg
+        jcr:lastModified: 2018-05-23T11:19:48.968+01:00
+        jcr:mimeType: image/jpeg
+      /project:smallsquare:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 49
+        hippogallery:width: 232
+        jcr:data:
+          type: binary
+          resource: /content/gallery/project/banners/b1.jpg/b1.jpg/smallsquare/smallsquare.jpg
+        jcr:lastModified: 2018-05-23T11:19:48.968+01:00
+        jcr:mimeType: image/jpeg

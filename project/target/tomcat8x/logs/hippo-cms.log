@@ -1,0 +1,6 @@
+24.05.2018 11:55:39 WARN  localhost-startStop-1 [RepositoryLock.acquire:134] Existing lock file C:\Users\vassit\Documents\GitHub\Test-Project\project\storage\.lock detected. Repository was not shut down properly.
+24.05.2018 11:59:19 WARN  http-nio-8080-exec-5 [ObservableTreeModel$ExpandedNode.get:183] Unable to find child resourcebundle[1] in observable tree model for org.hippoecm.frontend.model.JcrNodeModel@36d6094[
+  itemModel=org.hippoecm.frontend.model.JcrItemModel@58ab64ad[
+  path=/hippo:namespaces
+]
+]

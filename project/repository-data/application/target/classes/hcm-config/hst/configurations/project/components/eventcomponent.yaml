@@ -1,0 +1,5 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/project/hst:components/eventcomponent:
+      jcr:primaryType: hst:component
+      hst:componentclassname: org.example.components.EventsComponent

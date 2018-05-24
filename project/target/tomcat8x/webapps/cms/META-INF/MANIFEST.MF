@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: Project CMS
+Implementation-Version: 0.1.0-SNAPSHOT
+Built-By: vassit
+Project-Build: 2018-05-24T10:52:02Z
+Implementation-Vendor-Id: org.example
+Project-Version: 0.1.0-SNAPSHOT
+Hippo-Release-Version: 12.2.0
+Created-By: Apache Maven 3.5.3
+Build-Jdk: 1.8.0_161
+Implementation-URL: 
+Implementation-Vendor: 
+

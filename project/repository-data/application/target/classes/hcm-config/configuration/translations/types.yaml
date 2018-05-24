@@ -1,0 +1,64 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/project:bannerdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        project:content: Content
+        project:image: Image
+        project:link: Link
+        project:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        project:content: Inhoud
+        project:image: Afbeelding
+        project:link: Link
+        project:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Bannière
+        project:content: Contenu
+        project:image: Image
+        project:link: Lien
+        project:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Banner
+        project:content: Inhalt
+        project:image: Abbildung
+        project:link: Link
+        project:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/project:contentdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Simple Document
+        project:content: Content
+        project:introduction: Introduction
+        project:publicationdate: Publication date
+        project:title: Title
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Eenvoudig Document
+        project:content: Inhoud
+        project:introduction: Introductie
+        project:publicationdate: Publicatiedatum
+        project:title: Titel
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Document simple
+        project:content: Contenu
+        project:introduction: Introduction
+        project:publicationdate: Date de publication
+        project:title: Titre
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Einfaches Dokument
+        project:content: Inhalt
+        project:introduction: Einführung
+        project:publicationdate: Publikationsdatum
+        project:title: Titel
+    /hippo:configuration/hippo:translations/hippo:types/project:imageset:
+      jcr:primaryType: hipposys:resourcebundles

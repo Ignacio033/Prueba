@@ -1,0 +1,290 @@
+/content/documents/project/events:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 65c46036-f158-403b-b472-39660694ef4c
+  hippo:name: Events
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 5f8cf058-ccf4-40aa-a6e3-348cea1dc814
+  hippotranslation:locale: en
+  /e1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 35beab42-ed62-4712-aff3-146c0ea57338
+    /e1[1]:
+      jcr:primaryType: project:Event
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d371c73f-2e27-46c5-8a11-2ba6f1a115cc
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T10:26:02.599+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T10:26:02.599+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: be5eae43-0874-43a2-a8d9-ecb588451df2
+      hippotranslation:locale: en
+      project:date: 2018-05-23T10:26:00+01:00
+      project:title: E1
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>E1&nbsp;</p>
+
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      /project:imagelink:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:place:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /e1[2]:
+      jcr:primaryType: project:Event
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: e988d123-01f4-4fbe-89dc-5d42edce4407
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T10:26:02.599+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T10:26:21.077+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: be5eae43-0874-43a2-a8d9-ecb588451df2
+      hippotranslation:locale: en
+      project:date: 2018-05-23T10:26:00+01:00
+      project:title: E1
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>E1&nbsp;</p>
+
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      /project:imagelink:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:place:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /e1[3]:
+      jcr:primaryType: project:Event
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 65d3cb9e-f62c-4469-857e-ee2edf5ea641
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T10:26:02.599+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T10:26:21.077+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-05-23T10:26:23.745+01:00
+      hippotranslation:id: be5eae43-0874-43a2-a8d9-ecb588451df2
+      hippotranslation:locale: en
+      project:date: 2018-05-23T10:26:00+01:00
+      project:title: E1
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>E1&nbsp;</p>
+
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      /project:imagelink:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:place:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /e2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 4867f9c6-2cf4-47dc-96d4-03bfa1ddd451
+    /e2[1]:
+      jcr:primaryType: project:Event
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 97410532-ab7b-44f3-90fe-3d90669d3ca9
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T10:35:04.602+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T10:35:40.811+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 162e0046-6d83-49ef-9648-5f94fbd45a8d
+      hippotranslation:locale: en
+      project:date: 2018-05-23T10:35:00+01:00
+      project:title: E2
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /project:imagelink:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:place:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 803cccf6-fa29-4333-8190-e0512ed8f673
+    /e2[2]:
+      jcr:primaryType: project:Event
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: ebbed219-b9ea-47e2-b49c-2cf859bd04f4
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T10:35:04.602+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T10:35:38.241+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 162e0046-6d83-49ef-9648-5f94fbd45a8d
+      hippotranslation:locale: en
+      project:date: 2018-05-23T10:35:00+01:00
+      project:title: E2
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /project:imagelink:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:place:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 803cccf6-fa29-4333-8190-e0512ed8f673
+    /e2[3]:
+      jcr:primaryType: project:Event
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2de40b3a-435e-42f5-9e1f-b2bc797e1d76
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T10:35:04.602+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T10:35:38.241+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-05-23T10:35:44.369+01:00
+      hippotranslation:id: 162e0046-6d83-49ef-9648-5f94fbd45a8d
+      hippotranslation:locale: en
+      project:date: 2018-05-23T10:35:00+01:00
+      project:title: E2
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      /project:imagelink:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:place:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: 803cccf6-fa29-4333-8190-e0512ed8f673
+  /e3:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 6c854b80-d60c-47d4-8fc0-91846b9d96de
+    /e3[1]:
+      jcr:primaryType: project:Event
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ed6f154a-44e8-4ccc-a2be-cc537d955686
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T12:30:40.728+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T12:30:40.729+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 79ff231b-8e68-44cd-ab42-fe3665ff80d9
+      hippotranslation:locale: en
+      project:date: 2018-05-23T12:31:00+01:00
+      project:title: e3
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>e3&nbsp;</p>
+
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repella</p>
+      /project:imagelink:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 40a8e1a4-d91c-459b-a7eb-94342d8462b4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:place:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: fb1325ce-e231-471a-8953-a8e4223d13bf
+    /e3[2]:
+      jcr:primaryType: project:Event
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 7d271d52-4ae5-44fd-8517-60c00a88bc8b
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T12:30:40.728+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T12:31:30.835+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 79ff231b-8e68-44cd-ab42-fe3665ff80d9
+      hippotranslation:locale: en
+      project:date: 2018-05-23T12:31:00+01:00
+      project:title: e3
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>e3&nbsp;</p>
+
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repella</p>
+      /project:imagelink:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 40a8e1a4-d91c-459b-a7eb-94342d8462b4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:place:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: fb1325ce-e231-471a-8953-a8e4223d13bf
+    /e3[3]:
+      jcr:primaryType: project:Event
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0cb0f1e3-a023-4319-ad1a-24824b4e86e3
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-05-23T12:30:40.728+01:00
+      hippostdpubwf:lastModificationDate: 2018-05-23T12:31:30.835+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-05-23T12:31:34.003+01:00
+      hippotranslation:id: 79ff231b-8e68-44cd-ab42-fe3665ff80d9
+      hippotranslation:locale: en
+      project:date: 2018-05-23T12:31:00+01:00
+      project:title: e3
+      /project:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>e3&nbsp;</p>
+
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repella</p>
+      /project:imagelink:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 40a8e1a4-d91c-459b-a7eb-94342d8462b4
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /project:place:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: fb1325ce-e231-471a-8953-a8e4223d13bf

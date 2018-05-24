@@ -1,0 +1,10 @@
+/hst:hst/hst:configurations/project/hst:workspace/hst:containers/homepage/main/google-maps:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsGoogleMapsComponent
+  hst:iconpath: images/essentials/catalog-component-icons/googlemaps.png
+  hst:label: Google Maps
+  hst:parameternames: [address, apiKey, latitude, width, mapType, zoomFactor, longitude,
+    height]
+  hst:parametervalues: [London, '', '', '800', ROADMAP, '8', '', '400']
+  hst:template: essentials-googlemaps
+  hst:xtype: hst.item

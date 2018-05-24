@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Project Site
+Implementation-Version: 0.1.0-SNAPSHOT
+Built-By: vassit
+Implementation-Vendor-Id: org.example
+Created-By: Apache Maven 3.5.3
+Build-Jdk: 1.8.0_161
+Implementation-URL: 
+Implementation-Vendor: 
+
